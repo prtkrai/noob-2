@@ -1,0 +1,32 @@
+{
+  "name": "noob",
+  "version": "0.0.0",
+  "homepage": "https://github.com/paswani/noob",
+  "authors": [
+    "paswani <paswani@us.ibm.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "description": "Compiles stuff",
+  "main": "./lib/api.js",
+  "keywords": [
+    "noob",
+    "compile",
+    "stuff"
+  ],
+  "private": true,
+  "dependencies": {
+    "dt-node": "*"
+  },
+  "devDependencies": {
+    "dt-mocha": "~1.9.0",
+    "dt-sinon": "~1.5.0",
+    "dt-sinon-chai": "~2.4.0"
+  }
+}
